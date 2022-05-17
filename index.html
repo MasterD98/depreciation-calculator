@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./index.css">
+    <title>Depreciation Calculator</title>
+</head>
+<body>
+    </div>
+        <form id="form">
+            <label for="methods">Depreciation Method : </label>
+            <select name="methods" id="methods">
+                <option value="Straight Line">Straight Line</option>
+                <option value="Reducing Balance">Reducing Balance</option>
+                <option value="Production Unit">Production Unit</option>
+            </select><br><br>
+            <label for="cost">Cost : </label>
+            <input type="number" id="cost" name="cost" value="0"><br><br>
+        
+            <label for="usefulLife">Useful Life : </label>
+            <input type="number" id="usefulLife" name="usefulLife" value="0"><br><br>
+        
+            <label for="scrapValue">Scrap Value : </label>
+            <input type="number" id="scrapValue" name="scrapValue" value="0"><br><br>
+        
+            <label for="accDepreciation">Accumilated Depreciation : </label>
+            <input type="number" id="accDepreciation" name="accDepreciation" value="0"><br><br>
+        
+            <label for="scrap">Scrap : </label>
+            <input type="number" id="scrap" name="scrap" value="0"><br><br>
+        
+            <label for="noOfUnits">Number Of Units : </label>
+            <input type="number" id="noOfUnits" name="noOfUnits" value="0"><br><br>
+        
+            <label for="productionPerYear">Production Per Year : </label>
+            <input type="number" id="productionPerYear" name="productionPerYear" value="0"><br><br>
+        
+            <label for="depreciation">Depreciation : </label>
+            <input type="number" id="depreciation" name="depreciation"><br><br>
+            <input id="calculate" type="submit" value="Calculate">
+        </form>
+    </div>
+    
+    <script src="./script.js"></script>
+</body>
+</html>
