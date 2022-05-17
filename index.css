@@ -36,6 +36,7 @@ body {
 	height: 148px;
 	width: 198px;
 }
+
 .left-topic {
 	font-family: Helvetica;
 	font-size: 48px;
@@ -75,7 +76,7 @@ body {
 	font-weight: 700;
 	line-height: 23px;
 	text-align: left;
-    color: #000;
+	color: #000;
 
 }
 
@@ -99,6 +100,7 @@ input[type='number'] {
 .drop-down-input {
 	margin-bottom: 100px;
 }
+
 #calculate {
 	position: absolute;
 	right: 100px;
@@ -115,10 +117,21 @@ input[type='number'] {
 	color: #ffffff;
 }
 
+.hide-item {
+	display: none;
+}
 
 select option {
-    background-color: #073693;
-    color: #fff;
-    margin: 5px;
-    border: 0;
+	background-color: #073693;
+	color: #fff;
+	margin: 5px;
+	border: 0;
+}
+
+.button:hover {
+	transform: scale(1.02);
+}
+
+.button:active {
+	transform: translateY(1px);
 }
